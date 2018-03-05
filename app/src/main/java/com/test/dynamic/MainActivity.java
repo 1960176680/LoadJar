@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
@@ -62,7 +63,7 @@ public class MainActivity extends Activity {
                         outputStream.write(buffer,0,len);
 //                        outputStream.flush();
                     }
-
+                    outputStream.close();
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -99,7 +100,12 @@ public class MainActivity extends Activity {
                     Object object = cls.newInstance();
                     Method method = cls.getMethod("doSomething", null);
                     String s = (String) method.invoke(object, null);
-                    showTipDialog(s);
+
+
+                    Intent intent=new Intent(MainActivity.this,SecondActivity.class);
+                    intent.putExtra("result",s);
+                    startActivity(intent);
+//                    showTipDialog(s);
                     Toast.makeText(MainActivity.this, s, Toast.LENGTH_LONG).show();
                 } catch (Exception e) {
                     e.printStackTrace();
