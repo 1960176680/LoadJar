@@ -98,8 +98,8 @@ public class MainActivity extends Activity {
                 try {
                     Class<Object> cls = (Class<Object>) classLoader.loadClass("com.test.dynamic.MyClass");
                     Object object = cls.newInstance();
-                    Method method = cls.getMethod("doSomething", null);
-                    String s = (String) method.invoke(object, null);
+                    Method method = cls.getMethod("doSomething");
+                    String s = (String) method.invoke(object);
 
 
                     Intent intent=new Intent(MainActivity.this,SecondActivity.class);

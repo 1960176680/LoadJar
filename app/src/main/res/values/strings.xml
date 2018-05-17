@@ -1,3 +1,101 @@
 <resources>
-    <string name="app_name">LoadJar</string>
+    <string name="app_name">酒窖系统</string>
+    <string name="error_code">异常码：</string>
+    <string name="add_friend">添加朋友</string>
+    <string name="search">搜索</string>
+    <string name="send">发送</string>
+    <string name="please_wait">请稍等</string>
+
+    <!--注册-->
+    <!--登录-->
+    <string name="login_btn">登录</string>
+    <string name="register_btn">注册</string>
+    <string name="forget_btn">忘记密码？</string>
+    <string name="forget_title">忘记密码？</string>
+    <string name="login_error">登录失败</string>
+    <string name="phone_format_error">手机号不正确</string>
+    <string name="phone_not_empty">手机号不能为空</string>
+    <string name="password_not_empty">密码不能为空</string>
+    <string name="nickname_not_empty">昵称不能为空</string>
+    <string name="vertify_code_not_empty">验证码不能为空</string>
+    <string name="disconnect_server">与服务器失联</string>
+
+    <!--主界面-->
+    <string name="tv_in">新增</string>
+    <string name="tv_out">出/入库</string>
+    <string name="tv_query">查询</string>
+    <string name="tv_more">更多</string>
+
+    <string name="tv_title_in">商品新增</string>
+    <string name="tv_title_out">商品登记</string>
+    <string name="tv_title_query">商品查询</string>
+    <string name="tv_title_more">更多</string>
+
+    <!--发现-->
+    <string name="friend_cicle">朋友圈</string>
+    <string name="scan">扫一扫</string>
+    <string name="shake">摇一摇</string>
+    <string name="people_nearby">附近的人</string>
+    <string name="shopping">购物</string>
+    <string name="game">游戏</string>
+
+    <!--我-->
+    <string name="my_chat_account">微信号:%1$s</string>
+    <string name="album">相册</string>
+    <string name="collection">收藏</string>
+    <string name="wallet">钱包</string>
+    <string name="card_package">卡包</string>
+    <string name="jian_shu">简书</string>
+    <string name="csdn">CSDN</string>
+    <string name="oschina">码云</string>
+    <string name="github">GitHub</string>
+    <string name="emotion">表情</string>
+    <string name="setting">设置</string>
+    <string name="qr_code_card_tip">扫一扫上面的二维码图案，加我微信</string>
+
+    <string-array name="CXH_list">
+        <item>酱香型</item>
+        <item>浓香型</item>
+    </string-array>
+    <string-array name="CXH_list0">
+        <item>中国</item>
+        <item>美国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="CXH_list1">
+        <item>贵州</item>
+        <item>杭州</item>
+        <item>郑州</item>
+    </string-array>
+    <string-array name="CXH_list2">
+        <item>1L</item>
+        <item>2L</item>
+        <item>3L</item>
+    </string-array>
+    <!--注册-->
+    <string name="nickname">昵称</string>
+    <string name="password">密码</string>
+    <string name="area">国家/地区</string>
+    <string name="verification_code">验证码</string>
+
+    <string name="phone_not_available">手机号不可用</string>
+    <string name="send_code_error">发送验证码失败</string>
+    <string name="vertify_code_error">验证码有误</string>
+    <string name="send_code_btn_normal_tip">发送验证码</string>
+    <string name="register_error">注册出错</string>
+
+    <!--扫一扫-->
+    <string name="scan_code">扫码</string>
+    <string name="cover">封面</string>
+    <string name="street_scape">街景</string>
+    <string name="translate">翻译</string>
+    <string name="qr_cord_or_bar_code">二级码/条码</string>
+    <string name="cover_or_movie_poster">封面/电影海报</string>
+    <string name="select_qr_code_from_ablum">从相册选取二维码</string>
+    <string name="scan_fail">扫描失败</string>
+    <string name="open_camera_error">打开相机出错</string>
+    <string name="this_account_was_your_friend">该用户已经是您的好友</string>
+    <string name="you_already_in_this_group">您已经在群聊中</string>
+    <string name="select_group_info_fail_please_restart_app">已加入群聊，但查询群信息失败，请重启APP</string>
+    <string name="join_group_fail">入群失败</string>
 </resources>
